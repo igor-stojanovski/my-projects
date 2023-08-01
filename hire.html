@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/fc22ebfc24.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Вработи студенти</title>
+  </head>
+  <body class="body-hirepage bg-yellow position-relative min-vh-100">
+    <nav
+      class="navbar navbar-expand-md px-lg-5 py-lg-3 d-sm-none d-lg-flex shadow"
+    >
+      <a class="navbar-brand" href="index.html"
+        ><img src="./images/Logo.png" alt="logo" class="logo" />
+        <figcaption
+          class="text-uppercase font-weight-bolder text-black logo-text text-center"
+        >
+          brainster
+        </figcaption>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="modal"
+        data-target="#MenuModal"
+        aria-controls="MenuModal"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars-staggered font-size-30"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/marketing"
+              >Академија за маркетинг</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/front-end"
+              >Академија за програмирање</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/data-science"
+              >Академија за data science</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/graphic-design"
+              >Академија за дизајн</a
+            >
+          </li>
+        </ul>
+        <a href="hire.html" class="btn bg-red text-white font-weight-bold"
+          >Вработи наш студент</a
+        >
+      </div>
+    </nav>
+
+    <!-- MENU MODAL -->
+    <div
+      class="modal fade h-100 bg-dark"
+      id="MenuModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MenuModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content border-0 bg-transparent">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i
+                aria-hidden="true"
+                class="fa-solid fa-xmark fa-2x text-white"
+              ></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mx-auto my-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/marketing"
+                  >Академија за маркетинг</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/front-end"
+                  >Академија за програмирање</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/data-science"
+                  >Академија за data science</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/graphic-design"
+                  >Академија за дизајн</a
+                >
+              </li>
+            </ul>
+            <a href="hire.html" class="btn bg-red text-white font-weight-bold"
+              >Вработи наш студент</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- navbar tablet -->
+    <nav class="navbar d-none d-sm-flex d-lg-none bg-transparent shadow">
+      <a class="navbar-brand tablet-logo" href="index.html">
+        <img src="./images/Logo.png" alt="Logo" class="logo" />
+      </a>
+      <span
+        class="text-black font-weight-bold text-uppercase font-size-30 mr-auto"
+        >brainster</span
+      >
+      <div class="btn-group">
+        <span
+          type="button"
+          class="dropdown-toggle"
+          data-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Академии
+        </span>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a
+            class="dropdown-item"
+            href="https://brainster.co/marketing"
+            target="_blank"
+          >
+            Академија за маркетинг
+          </a>
+          <a
+            class="dropdown-item"
+            href="https://brainster.co/front-end"
+            target="_blank"
+          >
+            Академија за програмирање
+          </a>
+          <a
+            class="dropdown-item"
+            href="https://brainster.co/data-science"
+            target="_blank"
+          >
+            Академија за data science
+          </a>
+          <a
+            class="dropdown-item"
+            href="https://brainster.co/graphic-design"
+            target="_blank"
+          >
+            Академија за дизајн
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-lg section form-title">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="font-weight-bold text-center text-dark">
+            Вработи студенти
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-lg form-section">
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group col-12 col-md-6">
+            <label for="imePrezime" class="font-weight-bold"
+              >Име и презиме</label
+            >
+            <input
+              type="text"
+              name="imePrezime"
+              class="form-control form-control-lg"
+              placeholder="Вашето име и презиме"
+              id="imePrezime"
+              required
+            />
+          </div>
+          <div class="form-group col-12 col-md-6">
+            <label for="imeKompanija" class="font-weight-bold"
+              >Име на компанија</label
+            >
+            <input
+              type="text"
+              name="imeKompanija"
+              class="form-control form-control-lg"
+              placeholder="Име на вашата компанија"
+              id="imeKompanija"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-12 col-md-6">
+            <label for="email" class="font-weight-bold">Контакт имејл</label>
+            <input
+              type="email"
+              name="email"
+              class="form-control form-control-lg"
+              placeholder="Контакт имејл на вашата компанија"
+              id="email"
+              required
+            />
+          </div>
+          <div class="form-group col-12 col-md-6">
+            <label for="telefon" class="font-weight-bold"
+              >Контакт телефон</label
+            >
+            <input
+              type="number"
+              name="telefon"
+              class="form-control form-control-lg"
+              placeholder="Контакт телефон на вашата компанија"
+              id="telefon"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-12 col-md-6">
+            <label for="tipStudenti" class="font-weight-bold"
+              >Тип на студенти</label
+            >
+            <select
+              class="custom-select custom-select-lg font-weight-bold"
+              name="tipStudenti"
+              id="tipStudenti"
+              required
+            >
+              <option value="" disabled selected hidden>
+                Изберете тип на студент
+              </option>
+              <option value="studentMarketing">Студенти од маркетинг</option>
+              <option value="studentProgramiranje">
+                Студенти од програмирање
+              </option>
+              <option value="studentDataScience">
+                Студенти од data science
+              </option>
+              <option value="studentDesign">Студенти од дизајн</option>
+            </select>
+          </div>
+          <div class="form-group col-12 col-md-6">
+            <label class="invisible">простор</label>
+            <button
+              type="submit"
+              class="btn btn-block btn-lg bg-red text-white"
+            >
+              Испрати
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="footer-hirepage container-fluid bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 py-3">
+            <p class="text-center font-weight-bold text-white mb-0">
+              Изработено со
+              <i class="fa-solid fa-heart text-red"></i> од студентите на
+              Brainster
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="./js/scriptSecond.js"></script>
+  </body>
+</html>

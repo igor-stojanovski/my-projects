@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/fc22ebfc24.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Brainster Labs</title>
+  </head>
+  <body class="bg-yellow">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md px-lg-5 py-lg-3 d-sm-none d-lg-flex">
+      <a class="navbar-brand" href="index.html"
+        ><img src="./images/Logo.png" alt="logo" class="logo" />
+        <figcaption
+          class="text-uppercase font-weight-bolder text-black logo-text text-center"
+        >
+          brainster
+        </figcaption>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="modal"
+        data-target="#MenuModal"
+        aria-controls="MenuModal"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars-staggered font-size-30"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/marketing"
+              >Академија за маркетинг</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/front-end"
+              >Академија за програмирање</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/data-science"
+              >Академија за data science</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-black font-weight-bold"
+              href="https://brainster.co/graphic-design"
+              >Академија за дизајн</a
+            >
+          </li>
+        </ul>
+        <a href="hire.html" class="btn bg-red text-white font-weight-bold"
+          >Вработи наш студент</a
+        >
+      </div>
+    </nav>
+
+    <div class="tablet-navbar d-none d-sm-block d-lg-none">
+      <nav class="navbar navbar-expand bg-transparent">
+        <div class="collapse navbar-collapse" id="navbarTablet">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-center"
+                href="https://brainster.co/front-end"
+                >Академија за програмирање</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-center"
+                href="https://brainster.co/graphic-design"
+                >Академија за дизајн</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-center"
+                href="https://brainster.co/marketing"
+                >Академија за маркетинг</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-center"
+                href="https://brainster.co/data"
+                >Академија за data science</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="title text-white text-center">
+        <h1 class="text-white text-center mb-0">Brainster Labs</h1>
+      </div>
+      <a
+        class="navbar-brand logo-position bg-white rounded p-1"
+        href="index.html"
+        ><img src="./images/Logo.png" alt="logo" class="logo"
+      /></a>
+      <a
+        class="btn bg-red text-white font-weight-bold button-position"
+        href="hire.html"
+        >Вработи наш студент</a
+      >
+    </div>
+
+    <div
+      class="modal fade h-100 bg-dark"
+      id="MenuModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MenuModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content border-0 bg-transparent">
+          <div class="modal-header border-0">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <i
+                aria-hidden="true"
+                class="fa-solid fa-xmark fa-2x text-white"
+              ></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav mx-auto my-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/marketing"
+                  >Академија за маркетинг</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/front-end"
+                  >Академија за програмирање</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/data-science"
+                  >Академија за data science</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white font-weight-bold"
+                  href="https://brainster.co/graphic-design"
+                  >Академија за дизајн</a
+                >
+              </li>
+            </ul>
+            <a href="hire.html" class="btn bg-red text-white font-weight-bold"
+              >Вработи наш студент</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner -->
+
+    <div
+      class="banner d-flex d-sm-none d-lg-flex justify-content-center align-items-center"
+    >
+      <h1 class="text-white text-center font-weight-bold">Brainster Labs</h1>
+    </div>
+
+    <!-- Project Cards -->
+
+    <div class="project-cards container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="filter btn-group-toggle">
+            <label
+              class="label-marketing btn btn-dark w-100 font-weight-bold font-size16 text-left rounded-0 d-flex justify-content-between p-4"
+            >
+              <input type="checkbox" id="filter-marketing" /> Проект на студенти
+              по академијата за маркетинг
+              <i
+                class="fa-solid fa-circle-check font-size32 align-self-center"
+              ></i>
+            </label>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="filter btn-group-toggle">
+            <label
+              class="label-coding btn btn-dark w-100 font-weight-bold font-size16 text-left rounded-0 d-flex justify-content-between p-4"
+            >
+              <input type="checkbox" id="filter-coding" /> Проект на студенти по
+              академијата за програмирање
+              <i
+                class="fa-solid fa-circle-check font-size32 align-self-center"
+              ></i>
+            </label>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="filter btn-group-toggle">
+            <label
+              class="label-design btn btn-dark w-100 font-weight-bold font-size16 text-left rounded-0 d-flex justify-content-between p-4"
+            >
+              <input type="checkbox" id="filter-design" /> Проект на студенти по
+              академијата за дизајн
+              <i
+                class="fa-solid fa-circle-check font-size32 align-self-center"
+              ></i>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- cards grid -->
+
+    <div class="cards-grid-title container-sm mt-5">
+      <div class="row mb-3">
+        <div class="col-12">
+          <h2 class="font-weight-bold text-md-center text-dark">Проекти</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards-grid container-sm mb-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img1.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image1"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 marketing">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img2.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image2"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Маркетинг</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 design">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img12.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image3"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Дизајн</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img8.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image4"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 marketing">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img5.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image5"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Маркетинг</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img7.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image6"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img1.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image7"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 marketing">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img1.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image8"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Маркетинг</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 design">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img3.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image9"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Дизајн</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img6.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image10"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 marketing">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img6.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image11"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Маркетинг</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img14.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image12"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img3.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image13"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 marketing">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img8.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image14"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Маркетинг</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 design">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img6.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image15"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Дизајн</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img6.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image16"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 marketing">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img2.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image17"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Маркетинг</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img12.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image18"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 coding">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img13.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image19"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Програмирање</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col mb-4 design">
+          <a href="#" target="_blank" class="card text-black border-0 shadow">
+            <img
+              src="./images/img14.jpg"
+              class="card-img-top img-rounded12"
+              alt="Image20"
+            />
+            <div class="card-body">
+              <span
+                class="bg-yellow font-size12 py-1 px-2 text-dark font-weight-bold"
+                >Академија за Дизајн</span
+              >
+              <h5 class="card-title mt-2">
+                Име на проектот стои овде во две линии
+              </h5>
+
+              <p class="card-text">
+                Краток опис во кој студентите ке можат да опишат за што се
+                работи за проектот.
+              </p>
+              <p class="card-text">
+                <small class="font-weight-bold font-size12"
+                  >Април-Октомври 2022</small
+                >
+              </p>
+              <div class="d-flex flex-row-reverse">
+                <button
+                  type="button"
+                  href="#"
+                  class="btn bg-red text-white font-weight-bold"
+                >
+                  Дознај повеќе
+                </button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row d-sm-none justify-content-center">
+        <div class="col-6">
+          <button
+            type="button"
+            class="load-more border-0 bg-transparent font-weight-bold btn-block"
+            id="load"
+          >
+            Прикажи повеќе...
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 py-3">
+            <p class="text-center font-weight-bold text-white mb-0">
+              Изработено со
+              <i class="fa-solid fa-heart text-red"></i> од студентите на
+              Brainster
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,224 @@
+.text-black {
+  color: #000;
+}
+
+.text-red {
+  color: #ff0000;
+}
+
+.logo {
+  width: 50px;
+}
+
+.logo-text {
+  font-size: 10px;
+}
+
+.font-size12 {
+  font-size: 12px;
+}
+
+.font-size16 {
+  font-size: 16px;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.font-size32 {
+  font-size: 32px;
+}
+
+.bg-red {
+  background-color: #ff1300;
+}
+
+.bg-yellow {
+  background-color: #fcd232;
+}
+
+.tablet-navbar {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/hero.jpg);
+  background-size: cover;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-position {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.button-position {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.navbar ul a {
+  transition: all 0.3s ease-in-out;
+}
+.navbar .btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.modal .close {
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .navbar ul a:hover {
+    color: #ff1300;
+  }
+  .navbar .btn:hover {
+    background-color: transparent;
+    border: 1px solid #ff1300;
+    color: #ff1300 !important;
+  }
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+}
+
+.banner h1 {
+  font-size: 48px;
+}
+
+@media (min-width: 992px) {
+  .banner h1 {
+    font-size: 60px;
+  }
+}
+
+.project-cards .fa-circle-check {
+  visibility: hidden;
+}
+
+#filter-coding:checked ~ .fa-circle-check,
+#filter-marketing:checked ~ .fa-circle-check,
+#filter-design:checked ~ .fa-circle-check {
+  visibility: visible;
+}
+
+.colorChange {
+  background-color: #eb3b3b !important;
+  color: #302f38 !important;
+}
+
+.project-cards .filter {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.img-rounded12 {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.col {
+  display: none;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  color: #000;
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .cards-grid-title h2 {
+    font-size: 40px !important;
+  }
+  .col {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-cards .filter label {
+    font-size: 20px;
+  }
+  .cards-grid-title h2 {
+    font-size: 48px !important;
+  }
+}
+
+/* FORM HIREPAGE */
+
+.section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.form-section input::placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.form-section button {
+  margin-top: 200px;
+}
+
+.custom-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-size: 20px;
+}
+
+label.error {
+  font-weight: bold;
+  color: #ff1300;
+}
+
+.body-hirepage {
+  padding-bottom: 80px;
+}
+
+.footer-hirepage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 576px) {
+  .form-section button {
+    margin-top: 0;
+  }
+  .form-section {
+    margin-bottom: 150px;
+  }
+}
+
+@media (min-width: 424px) {
+  .body-hirepage {
+    padding-bottom: 56px;
+  }
+}
