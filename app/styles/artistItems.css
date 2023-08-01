@@ -1,0 +1,93 @@
+#artistItemsPage {
+  padding-top: 65px;
+  background-color: var(--background-normal);
+  min-height: 100vh;
+}
+
+.add-new-item {
+  margin-top: 16px;
+  color: var(--primary-default);
+  background-color: var(--background-light);
+  padding: 16px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.inner-div-new-item {
+  border: 2px dashed var(--primary-default);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.inner-div-new-item p {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.content-item {
+  background-color: var(--background-light);
+  color: var(--primary-default);
+  padding: 12px;
+  position: relative;
+}
+
+.content-item p {
+  margin-bottom: 0;
+}
+
+.price {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  background-color: var(--primary-default);
+  color: var(--background-light);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.content-item .content-date {
+  font-size: 12px !important;
+  color: var(--background-dark);
+}
+
+.content-text {
+  margin-top: 16px;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background-color: var(--primary-default);
+}
+
+.buttons-wrapper button {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 12px;
+}
+
+.send-to-auction-btn {
+  background-color: var(--primary-blue);
+}
+
+.unpublish-btn {
+  background-color: var(--primary-green);
+}
+
+.remove-btn {
+  background-color: var(--primary-contrast);
+}
+
+.edit-btn {
+  background-color: var(--background-light);
+  color: var(--primary-default) !important;
+}
+
+.published-btn {
+  background-color: lightgray !important;
+  color: var(--text-default) !important;
+}

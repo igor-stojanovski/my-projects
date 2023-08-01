@@ -1,0 +1,177 @@
+#auctionPage {
+  background-color: var(--background-normal);
+  min-height: 100vh;
+  padding-top: 65px;
+}
+
+.auction-wrapper {
+  padding: 24px 0 !important;
+}
+
+.auction-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-details-auction {
+  background-color: var(--background-light);
+  padding: 8px;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--primary-default);
+}
+
+.item-title-auction,
+.item-date-created {
+  flex-basis: 50%;
+  margin-bottom: 0;
+}
+
+.item-title-auction {
+  align-self: center;
+}
+
+.item-date-created {
+  text-align: end;
+  font-style: italic;
+}
+
+.start-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  color: var(--primary-contrast);
+}
+
+.start-info p {
+  margin-bottom: 0;
+}
+
+.artist-name-auction {
+  flex-basis: 100%;
+  margin-bottom: 0;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 36px;
+}
+
+.options-auction {
+  padding: 0px 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.options-child {
+  flex-basis: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.options-child:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.options-child button {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.currentBid-timer-wrapper {
+  background-color: var(--primary-default);
+  color: var(--background-light);
+}
+
+.currentBid-timer-wrapper p {
+  margin-bottom: 0;
+}
+
+.bid-container {
+  background-color: var(--background-light);
+}
+
+.bid {
+  color: var(--primary-contrast);
+  font-weight: bold;
+}
+
+.instant-buy {
+  background-color: var(--primary-contrast);
+}
+
+.instant-buy-btn {
+  color: var(--background-light);
+  font-weight: bold;
+}
+
+.options-child:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-light);
+  padding: 24px;
+}
+
+.modal-content {
+  background-color: var(--background-light);
+  color: var(--primary-default);
+}
+
+.modal-content .btn {
+  border-radius: 0px !important;
+}
+
+.modal-content .btn-cancel {
+  background-color: var(--primary-default);
+  color: var(--background-light);
+}
+
+.modal-content .btn-confirm {
+  background-color: var(--primary-contrast);
+  color: var(--background-light);
+}
+
+.instant-buy-price {
+  color: var(--primary-contrast);
+  font-size: 20px;
+}
+
+.bidders-container {
+  margin-top: 24px;
+  padding: 24px;
+  background-color: var(--background-light);
+  min-height: 137px;
+}
+
+.bidders-list {
+  padding: 0;
+  margin-bottom: 0;
+  list-style-type: square;
+  color: var(--primary-default);
+}
+
+.bidders-list p {
+  margin-bottom: 0;
+}
+
+.no-auction-item {
+  margin: 24px;
+  padding: 16px;
+  font-family: "Reenie Beanie", cursive;
+  text-align: center;
+  color: var(--primary-contrast);
+  border-left: 2px dashed var(--primary-contrast);
+  border-right: 2px dashed var(--primary-contrast);
+}

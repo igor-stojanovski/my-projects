@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-normal: #edd5bb;
+  --background-light: #fcebd5;
+  --background-dark: #e09686;
+  --primary-default: #a26a5e;
+  --primary-green: #1bac6f;
+  --primary-contrast: #d44c2e;
+  --primary-blue: #1b59ac;
+  --text-default: #5a5a5a;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.wrap60 {
+  margin-left: auto;
+  margin-right: auto;
+}

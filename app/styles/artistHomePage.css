@@ -1,0 +1,154 @@
+#artistHomePage {
+  padding-top: 65px;
+  background-color: var(--background-light);
+}
+
+.navbar-artist {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: var(--primary-default);
+  height: 65px;
+  background-color: var(--background-light);
+  z-index: 10;
+}
+
+.navbar-artist .logo-container {
+  flex-basis: 25%;
+}
+
+.navbar-artist h1 {
+  flex-basis: 55%;
+  font-family: "Reenie Beanie", cursive;
+  color: var(--primary-default);
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+}
+
+.navbar-artist .toggler-btn {
+  background-color: transparent;
+  border: none;
+  flex-basis: 20%;
+  color: var(--primary-default);
+}
+
+.nav-menu {
+  background-color: var(--primary-default);
+  color: var(--background-light);
+  text-align: center;
+  font-size: 28px;
+  font-weight: lighter;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: -255px;
+  width: 100%;
+  transition: top 0.5s ease-in-out;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 24px;
+}
+
+.display-menu {
+  top: 65px !important;
+  z-index: 1;
+}
+
+.nav-menu ul a {
+  color: var(--background-light);
+  text-decoration: none;
+}
+
+.nav-menu ul a:hover {
+  text-decoration: underline;
+}
+
+.widgets {
+  background-color: var(--background-normal);
+  color: var(--background-light);
+  padding: 16px;
+}
+
+.widgets p {
+  margin-bottom: 0;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.art-details,
+.auction-current-price {
+  font-weight: normal !important;
+  font-size: 46px !important;
+}
+
+.top-widgets-wrapper {
+  display: flex;
+  text-align: center;
+}
+
+.items-sold-widget {
+  margin-right: 16px;
+}
+
+.items-sold-widget,
+.total-income-widget {
+  padding: 16px;
+  background-color: var(--primary-default);
+  flex-basis: 50%;
+  border-radius: 4px;
+}
+
+.live-auction-item {
+  background-color: var(--primary-contrast);
+  padding: 16px;
+  border-radius: 4px;
+  margin-top: 12px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.chart-buttons {
+  padding: 16px;
+}
+
+.chart-buttons p {
+  font-size: 18px;
+  color: var(--primary-default);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  flex-basis: 33%;
+  margin-right: 32px;
+  background-color: var(--primary-default);
+  color: var(--background-light);
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.buttons button:last-child {
+  margin-right: 0;
+}
+
+.active-chat-btn {
+  background-color: var(--primary-contrast) !important;
+}
+
+.buttons button:hover {
+  opacity: 0.8;
+}

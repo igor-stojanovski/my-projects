@@ -1,0 +1,174 @@
+#visitorListing {
+  background-color: var(--background-normal);
+  padding-top: 65px;
+  min-height: 100vh;
+}
+
+.navbar-visitor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: var(--primary-default);
+  height: 65px;
+  background-color: var(--background-light);
+  z-index: 1;
+}
+
+.navbar-visitor .logo-container {
+  flex-basis: 25%;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar-visitor h1 {
+  flex-basis: 50%;
+  font-family: "Reenie Beanie", cursive;
+  color: var(--primary-default);
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-visitor .auction-icon {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  color: var(--primary-default);
+  background-color: var(--background-light);
+}
+
+.item-content > *:last-child {
+  margin-bottom: 0;
+}
+
+.item h2 {
+  font-family: "Reenie Beanie", cursive;
+}
+.item-content {
+  position: relative;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  padding: 12px;
+}
+.item-price {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  padding: 4px 8px;
+  background-color: var(--primary-default);
+  color: var(--background-light);
+  border-radius: 4px;
+}
+
+.item2 {
+  color: var(--background-light);
+  background-color: var(--primary-default);
+}
+
+.item-price2 {
+  background-color: var(--background-light) !important;
+  color: var(--primary-default) !important;
+}
+
+.container-visitor-items > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.filter-icon-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  border-radius: 4px;
+  background-color: var(--primary-contrast);
+  z-index: 1000;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  color: var(--background-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#visitorFilters {
+  position: fixed;
+  top: 65px;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-default);
+  transition: right 0.8s ease-out;
+  color: var(--background-light);
+}
+
+.visitorFilters-visible {
+  right: 0 !important;
+}
+
+.container-filters {
+  padding: 20px;
+}
+
+.filter {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid var(--background-light);
+}
+
+.container-filters h2 {
+  font-size: 28px;
+}
+
+.container-filters h3 {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.container-filters input,
+.container-filters select {
+  background-color: transparent;
+  border: 1px solid var(--background-light);
+  border-radius: 3px;
+  color: var(--background-light);
+  width: 100px;
+  padding: 4px;
+}
+
+#visitorFilters .price-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-filters input::placeholder {
+  color: var(--background-light);
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.apply-filters-btn {
+  display: flex;
+  position: absolute;
+  bottom: 85px;
+  right: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  background-color: var(--primary-contrast);
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
