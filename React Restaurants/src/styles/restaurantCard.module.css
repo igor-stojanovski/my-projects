@@ -1,0 +1,33 @@
+.restaurantCard {
+  background-color: rgb(233, 233, 233);
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+
+  & picture {
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  & .resCardContent {
+    padding: 12px;
+  }
+
+  & .resBusinessName {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  & .resType {
+    color: #ff6347;
+    font-weight: bold;
+  }
+  & .btnFavorite {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+  }
+}
