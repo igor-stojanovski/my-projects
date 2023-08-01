@@ -1,0 +1,34 @@
+@use "../css/abstracts/mixins" as mixin;
+
+.Details-Block {
+  padding: 24px;
+
+  @extend %section;
+  @extend %wrap;
+
+  .details-block-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .content {
+      .details-pretitle {
+        color: orange;
+        text-transform: uppercase;
+      }
+    }
+
+    .content,
+    .img {
+      flex-basis: 50%;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+
+    @media (max-width: 425px) {
+      flex-direction: column;
+    }
+  }
+}

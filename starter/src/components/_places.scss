@@ -1,0 +1,24 @@
+.place {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-basis: 33%;
+
+  height: 350px;
+  text-align: center;
+
+  color: white;
+
+  @media (max-width: 768px) {
+    flex-basis: 50%;
+  }
+
+  @media (max-width: 425px) {
+    flex-basis: 100%;
+  }
+}
